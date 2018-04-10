@@ -5,21 +5,21 @@ import java.util.Scanner;
 public class L8_Massive2 {
 
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
-		int a[] = new int[10];
-		a[0] = s.nextInt();
-		a[1] = s.nextInt();
-		a[2] = s.nextInt();
-		a[3] = s.nextInt();
-		a[4] = s.nextInt();
-		a[5] = s.nextInt();
-		a[6] = s.nextInt();
-		a[7] = s.nextInt();
-		a[8] = s.nextInt();
-		a[9] = s.nextInt();
-		Arrays.sort(a);
-		String b = Arrays.toString(a);
-		System.out.println(b);
-		s.close();
+		Scanner input = new Scanner(System.in);
+		int mas[] = new int[10];
+		mas[0] = input.nextInt();
+		mas[1] = input.nextInt();
+		mas[2] = input.nextInt();
+		mas[3] = input.nextInt();
+		mas[4] = input.nextInt();
+		mas[5] = input.nextInt();
+		mas[6] = input.nextInt();
+		mas[7] = input.nextInt();
+		mas[8] = input.nextInt();
+		mas[9] = input.nextInt();
+		Arrays.sort(mas);
+		String masprint = Arrays.toString(mas);
+		System.out.println(masprint);
+		input.close();
 	}
 }
