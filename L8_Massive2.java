@@ -18,8 +18,8 @@ public class L8_Massive2 {
 		a[8] = s.nextInt();
 		a[9] = s.nextInt();
 		Arrays.sort(a);
-		System.out.println(Arrays.toString(a));
+		String b = Arrays.toString(a);
+		System.out.println(b);
 		s.close();
 	}
-
 }
