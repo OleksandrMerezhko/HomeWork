@@ -24,8 +24,9 @@ public class L8_Massive5 {
 		System.arraycopy(a, 5, c, 0, 5);
 		Arrays.sort(b);
 		Arrays.sort(c);
-		System.out.println(Arrays.toString(b));
-		System.out.println(Arrays.toString(c));
+		String mb = Arrays.toString(b);
+		String mc = Arrays.toString(c);
+		System.out.println(mb);
+		System.out.println(mc);
 	}
-
 }
