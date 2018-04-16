@@ -17,6 +17,10 @@ public class L9_cycle1 {
 			num++;
 			}
 		while(num <= 20);
+		int[] array = new int[] {10,11,12,13,14,15,16,17,18,19,20};
+		for(int elem:array) {
+		System.out.println(elem);
+		}	
 		
 	}
 
