@@ -1,6 +1,7 @@
 package les1;
 
-
+//Ввести с консоли дату. Сравнить ее с текущей датой в системе. 
+//Вывести отличающиеся части (год, месяц) на экран.
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
